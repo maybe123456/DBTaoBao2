@@ -71,7 +71,7 @@ public class FragmentLotteryMain extends HandleFragment<FragmentCpMainTopBinding
     public void initView() {
         Log.i("TAG", "initView: xxxxxxxxxxx 1");
         setShowTitle(true);
-        setTitle(getString(R.string.tab_name_home));
+        setTitle("精选");
         getTitleBar().showLeft(false);
         topBinding = DataBindingUtil.inflate(LayoutInflater.from(getActivity()), R.layout.fragment_cp_main_top, null, false);
         initTopHeader();
