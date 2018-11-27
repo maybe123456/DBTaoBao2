@@ -48,9 +48,9 @@
     <color name="recall_black_38">#89ffffff</color>
     <color name="recall_white_54">#89ffffff</color>
 
-    <color name="main_color">#F9853F</color>
-    <color name="main_color_end">#ddF9853F</color>
-    <color name="main_color_half">#88F9853F</color>
+    <color name="main_color">#F54766</color>
+    <color name="main_color_end">#ddF54766</color>
+    <color name="main_color_half">#88F54766</color>
     <color name="titlebar_color">#E6E6FA</color>
     <color name="main_bg_color">#f2f0f0</color>
     <color name="main_bg_color2">#E3E3E3</color>
