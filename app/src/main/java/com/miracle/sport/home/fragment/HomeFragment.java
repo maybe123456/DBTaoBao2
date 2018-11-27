@@ -281,7 +281,7 @@ public class HomeFragment extends BaseFragment<FragmentHomeBinding> implements O
             for (int i = 0; i < mNetChannels.size(); i++) {
                 String title = mNetChannels.get(i).getName();
                 String code = mNetChannels.get(i).getId()+"";
-                String pic = mNetChannels.get(i).getPic2();
+                String pic = mNetChannels.get(i).getPic();
                 mSelectedChannels.add(new Channel(title, code,pic));
             }
 

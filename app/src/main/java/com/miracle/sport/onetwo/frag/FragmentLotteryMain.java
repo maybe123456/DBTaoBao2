@@ -198,7 +198,7 @@ public class FragmentLotteryMain extends HandleFragment<FragmentCpMainTopBinding
                 for(ChannerlKey item : zResponse.getData()){
                     //排除 ‘推荐’
                     if(1 != Integer.parseInt(item.getId()))
-                        addToHS(item.getName(),Integer.parseInt(item.getId()),item.getPic2());
+                        addToHS(item.getName(),Integer.parseInt(item.getId()),item.getPic());
                 }
             }
         };
