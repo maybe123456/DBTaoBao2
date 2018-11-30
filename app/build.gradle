@@ -101,6 +101,9 @@ dependencies {
     compile project(path: ':boommenu')
     //zxing
     implementation 'com.google.zxing:core:3.3.0'
+    //重水波纹
+    implementation 'com.scwang.wave:MultiWaveHeader:1.0.0-alpha-1'
+    implementation 'com.gelitenight.waveview:waveview:1.0.0'
 }
 // ADD THIS AT THE BOTTOM
 apply plugin: 'com.google.gms.google-services'

@@ -29,6 +29,7 @@ import com.miracle.base.util.sqlite.SQLiteKey;
 import com.miracle.base.util.sqlite.SQLiteUtil;
 import com.miracle.databinding.ActivitySportMainBinding;
 import com.miracle.sport.community.fragment.CommunityFragment;
+import com.miracle.sport.home.fragment.CircleMenuFragment;
 import com.miracle.sport.home.fragment.HomeFragment;
 import com.miracle.sport.me.fragment.MeFragment;
 import com.miracle.sport.onetwo.frag.FragmentLotteryMain;
@@ -61,7 +62,7 @@ public class SportMainActivity extends BaseActivity<ActivitySportMainBinding> {
     public void initView() {
         hideTitle();
         showContent();
-        binding.zRadiogroup.setUp(getSupportFragmentManager(), R.id.container, new HomeFragment(), new FragmentLotteryMain(), new CommunityFragment(), new MeFragment());
+        binding.zRadiogroup.setUp(getSupportFragmentManager(), R.id.container, new CircleMenuFragment(), new HomeFragment(), new CommunityFragment(), new MeFragment());
         if (AppConfig.DBENTITY != null && AppConfig.DBENTITY.getAppTurntable() == 1 && SQLiteUtil.getBoolean(SQLiteKey.FIRST_LOGIN)) {
             GOTO.CircleTurntableActivity(this);
             SQLiteUtil.saveBoolean(SQLiteKey.FIRST_LOGIN, true);

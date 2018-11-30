@@ -62,6 +62,7 @@
         <attr name="civ_border_color" format="color" />
         <attr name="civ_border_overlay" format="boolean" />
         <attr name="civ_fill_color" format="color" />
+        <attr name="name" format="string" />
     </declare-styleable>
 
     <!--ItemBar-->
@@ -127,4 +128,20 @@
         <attr name="cpb_sweep_speed" format="float" />
         <attr name="cpb_rotation_speed" format="float" />
     </declare-styleable>
+
+    <declare-styleable name="Circle">
+        <attr name="circleBackground" format="integer" />
+        <attr name="firstChildPosition">
+            <enum name="East" value="0" />
+            <enum name="South" value="90" />
+            <enum name="West" value="180" />
+            <enum name="North" value="270" />
+        </attr>
+        <attr name="rotateToCenter" format="boolean" />
+        <attr name="isRotating" format="boolean" />
+    </declare-styleable>
+    <!--<declare-styleable name="CircleImageView">-->
+        <!--<attr name="name" format="string" />-->
+    <!--</declare-styleable>-->
+
 </resources>
